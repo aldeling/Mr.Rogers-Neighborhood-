@@ -48,6 +48,12 @@ const number = "3"
 stringInput (number)
 Expected Output: [0, 1, 2, 3]
 
+Test: It should turn each array value into a string
+Code:
+const number = "3"
+stringInput (number)
+Expected Output: ["0", "1", "2", "3"]
+
 Describes changeInput ()
 
 Test: It should return Beep! when 1 is apart of the array
