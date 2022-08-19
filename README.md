@@ -29,7 +29,6 @@ userInput (number)
 Expected Output: this is not a valid input
 
 Test: It should return false if input has a letter
-Code:
 const number = "a"
 userInput (number)
 Expected Output: this is not a valid input
