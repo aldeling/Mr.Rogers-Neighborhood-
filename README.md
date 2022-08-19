@@ -86,5 +86,11 @@ const number = "10"
 changeInput (number)
 Expected Output: "Beep!"
 
+Test: It should return Boop! when any number includes 2
+Code:
+const number = "22"
+changeInput (number)
+Expected Output: "Boop!"
+
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 08/19/2022 Athea DeLing
