@@ -29,9 +29,17 @@ userInput (number)
 Expected Output: this is not a valid input
 
 Test: It should return false if input has a letter
+Code:
 const number = "a"
 userInput (number)
 Expected Output: this is not a valid input
+
+Test: It should return true when the input is a number
+Code:
+const number = "1"
+userInput (number)
+Expected Output: this is a valid input
+
 
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 08/19/2022 Athea DeLing
