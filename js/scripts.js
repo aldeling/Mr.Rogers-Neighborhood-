@@ -16,12 +16,12 @@ function stringInput(number) {
 }
 
 
-// function changeInput(number) {
-//   document.getElementById(input)
-//   if (stringArray === 1) {
-//     stringArray = "Beep!"
-//   }
-// }
+function changeInput(number) {
+  if (number === "1") {
+    return "Beep!";
+  }
+  return number
+}
 
 // UI Logic
 
