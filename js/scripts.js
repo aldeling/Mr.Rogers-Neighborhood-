@@ -10,7 +10,9 @@ function userInput(number) {
 function stringInput(number) {
   const stringArray = [];
   for (let index = 0; index <= number; index += 1) {
-    stringArray.push(index)
+    const indexCopy = index;
+    let stringNumber = indexCopy.toString();
+    stringArray.push(stringNumber);
    }
    return stringArray;
 }
