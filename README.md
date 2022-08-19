@@ -40,21 +40,13 @@ const number = "1"
 userInput (number)
 Expected Output: this is a valid input
 
-Describes: countingInput()
-
-Test: It should start at 0 and increase up to users input
-Code:
-const number = "3"
-countingInput(number)
-Expected Output:[0, 1, 2, 3]
-
 Describes: stringInput()
 
-Test: It should turn the input 3 into four strings
+Test: It should turn the input 3 into a single array starting at 0 increasing to 3
 Code:
 const number = "3"
 stringInput (number)
-Expected Output: ["0", "1", "2", "3"]
+Expected Output: [0, 1, 2, 3]
 
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 08/19/2022 Athea DeLing

@@ -7,13 +7,10 @@ function userInput(number) {
   return "this is a valid input";
 }
 
-// function countingInput(number) {
-//   const countingArray = [String(index)];
-//   for (let index = 0; index <= number.length; index += 1) {
-//   }
-//   return countingArray;
-// }
-
 function stringInput(number) {
-  const stringArray = number.split("");
+  const stringArray = [];
+  for (let index = 0; index <= number; index += 1) {
+    stringArray.push(index);
+   }
+   return stringArray;
 }
