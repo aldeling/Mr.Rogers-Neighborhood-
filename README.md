@@ -62,5 +62,12 @@ const number = "1"
 changeInput (number)
 Expected Output: "Beep!"
 
+Test: It should return number when user inputs a number that is not 1
+Code:
+const number = "2"
+changeInput (number)
+Expected Output: "2"
+
+
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 08/19/2022 Athea DeLing
