@@ -48,5 +48,13 @@ const number = "3"
 countingInput(number)
 Expected Output:[0, 1, 2, 3]
 
+Describes: stringInput()
+
+Test: It should turn the input 3 into four strings
+Code:
+const number = "3"
+stringInput (number)
+Expected Output: ["0", "1", "2", "3"]
+
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 08/19/2022 Athea DeLing
