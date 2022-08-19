@@ -20,11 +20,19 @@ There are a couple ways you can choose to setup this web application you can,
 There are currently no known bugs in this application
 
 ### Tests
-Describes:
+Describes: userInput()
 
-Test: 
+Test: It should return false if there is no information inputted
 Code:
-Expected Output:
+const number = ""
+userInput (number)
+Expected Output: this is not a valid input
+
+Test: It should return false if input has a letter
+Code:
+const number = "a"
+userInput (number)
+Expected Output: this is not a valid input
 
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 08/19/2022 Athea DeLing
