@@ -54,7 +54,7 @@ const number = "3"
 stringInput (number)
 Expected Output: ["0", "1", "2", "3"]
 
-Describes changeInput ()
+Describes changeInput()
 
 Test: It should return Beep! when number is 1
 Code:
@@ -109,6 +109,14 @@ Code:
 const number = "123"
 changeInput (number)
 Expected Output: "Won't you be my neighbor?"
+
+Describes: totalInput()
+
+Test: It should return an array containing strings from 0 up to the value entered. With values containing 3 it should return "Won't you be my neighbor?". If the number contains 2 it should return "Boop!". If the number contains 1 it should return "Beep!".
+Code:
+const number = "5"
+totalInput (number)
+Expected Output: ["0", "Beep!", "Boop!", "Won't you be my neighbor?", "4", "5"]
 
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 08/19/2022 Athea DeLing
