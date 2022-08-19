@@ -21,7 +21,7 @@ function changeInput(number) {
     return "Beep!";
   } else if (number.includes("2")) {
     return "Boop!"
-  } else if (number === "3") {
+  } else if (number.includes("3")) {
     return "Won't you be my neighbor?"
   }
   return number
