@@ -14,3 +14,9 @@ function stringInput(number) {
    }
    return stringArray;
 }
+
+function changeInput(number) {
+  if (stringArray === 1) {
+    stringArray = "Beep!"
+  }
+}

@@ -48,5 +48,12 @@ const number = "3"
 stringInput (number)
 Expected Output: [0, 1, 2, 3]
 
+Describes changeInput ()
+
+Test: It should return Beep! when 1 is apart of the array
+Code:
+const number = "1"
+Expected Output: [0, "Beep!"]
+
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 08/19/2022 Athea DeLing
