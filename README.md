@@ -72,13 +72,19 @@ Test: It should return Won't you be my neighbor? when number is 3
 Code:
 const number = "3"
 changeInput (number)
-Expected Output: "Won't you be my Neighbor?"
+Expected Output: "Won't you be my neighbor?"
 
 Test: It should return number when user inputs a number that is not 1
 Code:
 const number = "4"
 changeInput (number)
 Expected Output: "4"
+
+Test: It should return Beep! when any number includes 1
+Code:
+const number = "10"
+changeInput (number)
+Expected Output: "Beep!"
 
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 08/19/2022 Athea DeLing
