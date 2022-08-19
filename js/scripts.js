@@ -15,9 +15,17 @@ function stringInput(number) {
    return stringArray;
 }
 
+
 // function changeInput(number) {
 //   document.getElementById(input)
 //   if (stringArray === 1) {
 //     stringArray = "Beep!"
 //   }
 // }
+
+// UI Logic
+
+function handleFormSubmission() {
+  event.preventDefault();
+  window.addEventListener
+}
