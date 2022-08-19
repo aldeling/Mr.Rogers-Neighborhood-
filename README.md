@@ -104,5 +104,11 @@ const number = "12"
 changeInput (number)
 Expected Output: "Boop!"
 
+Test: It should return Won't you be my neighbor? when there is a 1, 2, or 3 in a number
+Code:
+const number = "123"
+changeInput (number)
+Expected Output: "Won't you be my neighbor?"
+
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 08/19/2022 Athea DeLing
