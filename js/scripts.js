@@ -19,6 +19,8 @@ function stringInput(number) {
 function changeInput(number) {
   if (number === "1") {
     return "Beep!";
+  } else if (number === "2"){
+    return "Boop!"
   }
   return number
 }
