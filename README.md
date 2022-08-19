@@ -68,6 +68,12 @@ const number = "2"
 changeInput (number)
 Expected Output: "Boop!"
 
+Test: It should return Won't you be my neighbor? when number is 3
+Code:
+const number = "3"
+changeInput (number)
+Expected Output: "Won't you be my Neighbor?"
+
 Test: It should return number when user inputs a number that is not 1
 Code:
 const number = "4"
