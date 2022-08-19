@@ -40,6 +40,13 @@ const number = "1"
 userInput (number)
 Expected Output: this is a valid input
 
+Describes: countingInput()
+
+Test: It should start at 0 and increase up to users input
+Code:
+const number = "3"
+countingInput(number)
+Expected Output:[0, 1, 2, 3]
 
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 08/19/2022 Athea DeLing

@@ -6,3 +6,10 @@ function userInput(number) {
   }
   return "this is a valid input";
 }
+
+function countingInput(number) {
+  let countingArray = [];
+  for (let index = 0; index <= 3; index += 1) {
+    countingArray.push(index);
+  }
+}
