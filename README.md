@@ -98,5 +98,11 @@ const number = "30"
 changeInput (number)
 Expected Output: "Won't you be my neighbor?"
 
+Test: It should return Boop! when there is a 2 or a 1 in a number
+Code:
+const number = "12"
+changeInput (number)
+Expected Output: "Boop!"
+
 ### License
 [GNU](https://choosealicense.com/licenses/gpl-3.0/) Copyright (c) 08/19/2022 Athea DeLing

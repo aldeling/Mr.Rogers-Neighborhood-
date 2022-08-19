@@ -17,12 +17,12 @@ function stringInput(number) {
 
 
 function changeInput(number) {
-  if (number.includes("1")) {
-    return "Beep!";
+  if (number.includes("3")) {
+    return "Won't you be my neighbor?";
   } else if (number.includes("2")) {
     return "Boop!"
-  } else if (number.includes("3")) {
-    return "Won't you be my neighbor?"
+  } else if (number.includes("1")) {
+    return "Beep!"
   }
   return number
 }
