@@ -30,12 +30,12 @@ function changeInput(number) {
 
 function totalInput(number){
   const finalArray = [];
-  const first = userInput (number);
+  const first = userInput(number);
   if (first === "this is not a valid input")
     return first;
-  const second = stringInput (first);
+  const second = stringInput(first);
   for (let index = 0; index <= second.length-1; index +=1) {
-    const third = changeInput (second[index]);
+    const third = changeInput(second[index]);
     finalArray.push(third);
   }
   return finalArray
