@@ -22,23 +22,23 @@ There are currently no known bugs in this application
 ### Tests
 Describes: userInput()
 
-Test: It should return false if there is no information inputted
+Test: It should return an error message if there is no information inputted
 Code:
 const number = ""
 userInput (number)
 Expected Output: this is not a valid input
 
-Test: It should return false if input has a letter
+Test: It should return an error message if input has a letter
 Code:
 const number = "a"
 userInput (number)
 Expected Output: this is not a valid input
 
-Test: It should return true when the input is a number
+Test: It should return the number when the input is a number
 Code:
 const number = "1"
 userInput (number)
-Expected Output: this is a valid input
+Expected Output: "1"
 
 Describes: stringInput()
 

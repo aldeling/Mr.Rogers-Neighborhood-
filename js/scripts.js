@@ -43,6 +43,12 @@ function totalInput(number){
 
 // UI Logic
 
-function handleFormSubmission() {
-  event.preventDefault();c
+function handleFormSubmission(event) {
+  event.preventDefault();
+  let userNumber = document.getElementById("number").value;
+  document.getElementById("sentence").innerText = totalInput(userNumber);
 }
+
+window.addEventListener("load",function() {
+  document.querySelector("form#messageForm").addEventListener("submit", handleFormSubmission);
+});
