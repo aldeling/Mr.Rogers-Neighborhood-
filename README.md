@@ -13,7 +13,8 @@ This is a web application takes a users inputted number and changes those specif
 
 ### Setup Instructions
 There are a couple ways you can choose to setup this web application you can,
-  * go to the repository fork the Mr.Rogers-Neighborhood- and clone it to your personal computer
+  * go to the repository fork the Mr.Rogers-Neighborhood- and clone it to your personal computer.
+  * Once you open it click on index.html to then open on your default browser.
   * go to the [GitHub](will add at end) pages like and open the web application there
 
 ### Known Bugs
